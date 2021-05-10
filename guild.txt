@@ -1,0 +1,5 @@
+docker-compose up
+cd proxy 
+docker build .
+cd ..
+docker-compose -f docker-compose-deploy.yml up --build
